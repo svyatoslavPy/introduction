@@ -8,17 +8,15 @@ import React from 'react';
 
 function App() {
   return (
-    <React.Fragment>
+    <div className='greeting'>
       <div className='greeting-items'>
         <GreetingHelloComponent greeting="Hello"></GreetingHelloComponent>
         <GreetingHelloComponentChild>Hello</GreetingHelloComponentChild>
       </div>
-      <div className='counter-inner'>
-        <div className='counter'>
-          <Сounter></Сounter>
-        </div>
+      <div className='counter'>
+        <Сounter></Сounter>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 
